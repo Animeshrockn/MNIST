@@ -25,11 +25,7 @@ The output node with the highest value is taken as the predicted digit.
 
 We will be experimenting with Stochastic Gradient Descent optimizer. However, there are many other optimizers available, but for our program we will use gradient descent only. One importaint parameter in neural network in number of epochs, which we will take as 5 so it wont take much time to run the code. 
 
-In addition, the choice of hidden layer units are completely arbitrary and may not be optimal. This is yet another parameter which we will not attempt to tinker with.
-
-TRAINING TAKES 10 MINUTES APPROX ON A NORMAL LAPTOP:
-Accuracy: >97%
-Not bad for a simple network (“multilayer perceptron”) with one hidden layer!
+In addition, the choice of hidden layer units are completely arbitrary and may not be optimal. This is yet another parameter which we will not attempt to tinker with.Training take 10 minutes approx on a simple laptop which is not bad for a artificial neural network network (“multilayer perceptron”) with one hidden layer!
 
 We will be using query and backquery in our code for verification purpose thought its more of learning and understanding advantage.
 
