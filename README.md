@@ -55,3 +55,4 @@ Accuracy for the Model is more than 97%.<br><br>
 **Credit:**
 It's based on the book [Make Your Own Neural Network](https://www.amazon.com/Make-Your-Own-Neural-Network/dp/1530826608/ref=as_li_ss_tl?ie=UTF8&qid=1489506339&sr=8-1-fkmr1&keywords=create+your+own+neural+network+python&linkCode=sl1&tag=natureofcode-20&linkId=c12539edab4fd9b21c4801d1eae57dfc) by Tariq Rashid [book source code](https://github.com/makeyourownneuralnetwork).
 
+<img width="572" alt="Screenshot 2021-05-08 at 3 08 25 PM" src="https://user-images.githubusercontent.com/77103507/117537425-61b9b500-b01e-11eb-9f92-9dca4206070a.png">
