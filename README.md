@@ -34,13 +34,14 @@ We will be using query and backquery in our code for verification purpose though
   - Run the network backwards to get the input
   - Show the result as an image
 
--Similar to back-propagating the error, but have to invert sigmoid <br><br>
+- Similar to back-propagating the error, but have to invert sigmoid <br><br>
 
->![equation](http://www.sciweavers.org/tex2img.php?eq=H%5E%7B%28l-1%29%7D%20%3D%20W%5E%7B%28l%29%7D%7B%5Csigma%7D%5E%7B%28-1%29%7D%28h%5E%7B%28l%29%7D%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.codecogs.com/eqnedit.php?latex=h^{(l-1)}&space;=&space;W&space;^{(l)}&space;\sigma^{(-1)}&space;(h^{(l)})" target="_blank"><img src="https://latex.codecogs.com/gif.latex?h^{(l-1)}&space;=&space;W&space;^{(l)}&space;\sigma^{(-1)}&space;(h^{(l)})" title="h^{(l-1)} = W ^{(l)} \sigma^{(-1)} (h^{(l)})" /></a>
 
--The inverse of the sigmoid is the logit function <br><br>
 
->![equation](http://www.sciweavers.org/tex2img.php?eq=%7B%5Csigma%7D%5E%7B%28-1%29%7D%28y%29%3Dln%28%20%5Cfrac%20%7By%7D%7B1-y%7D%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+- The inverse of the sigmoid is the logit function <br><br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.codecogs.com/eqnedit.php?latex=\sigma^{(-1)}(y)&space;=&space;ln&space;(&space;\frac{y}{1-y})" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sigma^{(-1)}(y)&space;=&space;ln&space;(&space;\frac{y}{1-y})" title="\sigma^{(-1)}(y) = ln ( \frac{y}{1-y})" /></a>
 
 Since the sigmoid is bounded to (0, 1), the input to logit (𝑦) must always be scaled back to this interval.
 
@@ -53,4 +54,4 @@ Accuracy for the Model is more than 97%.<br><br>
 
 **Credit:**
 It's based on the book [Make Your Own Neural Network](https://www.amazon.com/Make-Your-Own-Neural-Network/dp/1530826608/ref=as_li_ss_tl?ie=UTF8&qid=1489506339&sr=8-1-fkmr1&keywords=create+your+own+neural+network+python&linkCode=sl1&tag=natureofcode-20&linkId=c12539edab4fd9b21c4801d1eae57dfc) by Tariq Rashid [book source code](https://github.com/makeyourownneuralnetwork).
-![image](https://user-images.githubusercontent.com/77103507/117535898-b60c6700-b015-11eb-8402-2b4856607c33.png)
+
